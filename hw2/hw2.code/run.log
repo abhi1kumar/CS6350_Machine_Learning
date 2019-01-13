@@ -1,0 +1,89 @@
+--------------------------- Question 4 ----------------------------------
+
+************************************************************************
+*************************** Majority Label *****************************
+************************************************************************
+Accuracy for majority label on dev set  = 56.00
+Accuracy for majority label on test set = 52.24
+
+************************************************************************
+************* Simple Perceptron (Fixed learning rate) ******************
+************************************************************************
+lr 	 Acc(mean) 	 Acc(std)
+1.00 	 63.47 		 4.98
+0.10 	 63.47 		 5.65
+0.01 	 62.00 		 4.88
+Best learning rate = 0.1
+Total number of updates = 6190
+
+Accuracy on best hyperparameter
+dev  = 76.00
+test = 70.65
+Saving the learning curve to simple.png
+
+************************************************************************
+************* Simple Perceptron (Decaying learning rate) ***************
+************************************************************************
+lr 	 Acc(mean) 	 Acc(std)
+1.00 	 65.60 		 6.15
+0.10 	 65.47 		 5.94
+0.01 	 64.27 		 5.81
+Best learning rate = 1
+Total number of updates = 6150
+
+Accuracy on best hyperparameter
+dev  = 76.00
+test = 67.66
+Saving the learning curve to decaying.png
+
+************************************************************************
+************ Margin Perceptron (Decaying Learning Rate) ****************
+************************************************************************
+mu 	 lr 	 Acc(mean) 	 Acc(std)
+1.00 	 1.00 	 49.33 		 5.63
+1.00 	 0.10 	 49.33 		 5.63
+1.00 	 0.01 	 49.60 		 5.73
+0.10 	 1.00 	 63.33 		 7.85
+0.10 	 0.10 	 65.73 		 5.70
+0.10 	 0.01 	 61.73 		 7.14
+0.01 	 1.00 	 64.53 		 5.95
+0.01 	 0.10 	 63.87 		 5.80
+0.01 	 0.01 	 66.00 		 5.01
+Best mu = 0.01
+Best learning rate = 0.01
+Total number of updates = 5465
+
+Accuracy on best hyperparameter
+dev  = 67.50
+test = 69.65
+Saving the learning curve to margin.png
+
+************************************************************************
+************************ Averaged Perceptron ***************************
+************************************************************************
+mu 	 Acc(mean) 	 Acc(std)
+1.00 	 62.67 		 6.90
+0.10 	 62.00 		 6.10
+0.01 	 61.60 		 5.94
+Best lr = 1
+Total number of updates = 6224
+
+Accuracy on best hyperparameter
+dev  = 73.00
+test = 70.65
+Saving the learning curve to averaged.png
+
+************************************************************************
+********************** Aggressive Perceptron ***************************
+************************************************************************
+mu 	 Acc(mean) 	 Acc(std)
+1.00 	 51.87 		 6.55
+0.10 	 52.00 		 7.03
+0.01 	 59.73 		 5.09
+Best mu = 0.01
+Total number of updates = 5907
+
+Accuracy on best hyperparameter
+dev  = 72.50
+test = 70.65
+Saving the learning curve to aggresive.png

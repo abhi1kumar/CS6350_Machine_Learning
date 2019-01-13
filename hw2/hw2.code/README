@@ -1,0 +1,10 @@
+First use X-11 port forwarding if you are using ssh to login to the system. Without this python cannot import pyplot and therfore graphs cannot be plotted. In other words, you should use
+
+ssh -X username@lab1-1.eng.utah.edu
+
+After this login, open a terminal and migrate to the required directory
+
+chmod +x run.sh
+./run.sh
+
+The testing has been done on lab1-1.eng.utah.edu machine
