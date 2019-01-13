@@ -1,0 +1,105 @@
+--------------------------- Question 2 ----------------------------------
+Reading data ...
+219
+
+Preparing cross-validation splits ...
+
+************************************************************************
+******************** SVM (Decaying learning rate) **********************
+************************************************************************
+r= 0.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.01 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.10 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 1.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 10.00 Precision= 0.6266 Recall= 0.0886  F-score= 0.1552
+lr= 0.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.01 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 0.10 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 1.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00 C= 10.00 Precision= 0.6280 Recall= 0.0845  F-score= 0.1490
+lr= 0.01 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01 C= 0.01 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01 C= 0.10 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01 C= 1.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01 C= 10.00 Precision= 0.6309 Recall= 0.1221  F-score= 0.2018
+lr= 0.10 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10 C= 0.01 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10 C= 0.10 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10 C= 1.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10 C= 10.00 Precision= 0.5832 Recall= 0.0387  F-score= 0.0714
+lr= 1.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00 C= 0.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00 C= 0.01 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00 C= 0.10 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00 C= 1.00 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00 C= 10.00 Precision= 0.5308 Recall= 0.0817  F-score= 0.0927
+Best lr= 0.01000 C= 10.0
+
+Best f-score achieved during 5-fold cross validation: 0.2018
+Precision= 0.7461 Recall= 0.1728  F-score= 0.2806
+
+************************************************************************
+************ Logistic Regression (Decaying learning rate) **************
+************************************************************************
+lr= 0.00001 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00001 sigmaSq= 10.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00001 sigmaSq= 100.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00001 sigmaSq= 1000.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00001 sigmaSq= 10000.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00010 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00010 sigmaSq= 10.0 Precision= 0.5357 Recall= 0.0027  F-score= 0.0054
+lr= 0.00010 sigmaSq= 100.0 Precision= 0.6167 Recall= 0.0654  F-score= 0.1183
+lr= 0.00010 sigmaSq= 1000.0 Precision= 0.6104 Recall= 0.0727  F-score= 0.1299
+lr= 0.00010 sigmaSq= 10000.0 Precision= 0.6106 Recall= 0.0732  F-score= 0.1307
+lr= 0.00100 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.00100 sigmaSq= 10.0 Precision= 0.6501 Recall= 0.0385  F-score= 0.0726
+lr= 0.00100 sigmaSq= 100.0 Precision= 0.5747 Recall= 0.2186  F-score= 0.3166
+lr= 0.00100 sigmaSq= 1000.0 Precision= 0.5723 Recall= 0.2615  F-score= 0.3588
+lr= 0.00100 sigmaSq= 10000.0 Precision= 0.5745 Recall= 0.2683  F-score= 0.3657
+lr= 0.01000 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.01000 sigmaSq= 10.0 Precision= 0.6437 Recall= 0.0379  F-score= 0.0715
+lr= 0.01000 sigmaSq= 100.0 Precision= 0.5778 Recall= 0.2225  F-score= 0.3211
+lr= 0.01000 sigmaSq= 1000.0 Precision= 0.5752 Recall= 0.2905  F-score= 0.3860
+lr= 0.01000 sigmaSq= 10000.0 Precision= 0.5767 Recall= 0.3013  F-score= 0.3957
+lr= 0.10000 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 0.10000 sigmaSq= 10.0 Precision= 0.6659 Recall= 0.0128  F-score= 0.0250
+lr= 0.10000 sigmaSq= 100.0 Precision= 0.5795 Recall= 0.1891  F-score= 0.2851
+lr= 0.10000 sigmaSq= 1000.0 Precision= 0.5873 Recall= 0.2606  F-score= 0.3610
+lr= 0.10000 sigmaSq= 10000.0 Precision= 0.5891 Recall= 0.2764  F-score= 0.3762
+lr= 1.00000 sigmaSq= 1.0 Precision= 0.0000 Recall= 0.0000  F-score= 0.0000
+lr= 1.00000 sigmaSq= 10.0 Precision= 0.1500 Recall= 0.0005  F-score= 0.0009
+lr= 1.00000 sigmaSq= 100.0 Precision= 0.5711 Recall= 0.1279  F-score= 0.2052
+lr= 1.00000 sigmaSq= 1000.0 Precision= 0.5791 Recall= 0.2118  F-score= 0.3073
+lr= 1.00000 sigmaSq= 10000.0 Precision= 0.5766 Recall= 0.2271  F-score= 0.3237
+Best lr= 0.01000 sigmaSq= 10000.0
+
+Best f-score achieved during 5-fold cross validation: 0.3957
+Precision= 0.7103 Recall= 0.3577  F-score= 0.4758
+
+************************************************************************
+*************************** Naive Bayes ********************************
+************************************************************************
+Averaged F-score = 0.4511
+Averaged F-score = 0.4512
+Averaged F-score = 0.4512
+Averaged F-score = 0.4515
+lambda= 0.50 Precision= 0.4376 Recall= 0.4658  F-score= 0.4511
+lambda= 1.00 Precision= 0.4383 Recall= 0.4651  F-score= 0.4512
+lambda= 1.50 Precision= 0.4391 Recall= 0.4642  F-score= 0.4512
+lambda= 2.00 Precision= 0.4403 Recall= 0.4637  F-score= 0.4515
+
+Best lambda = 2.00 Best f-score achieved during 5-fold cross validation: 0.4515
+Precision= 0.5199 Recall= 0.5278  F-score= 0.5238
+
+************************************************************************
+*********** Linear SVMs on top of decision trees ***********************
+************************************************************************
+depth= 5.00 lr= 0.01 C= 10 Precision= 0.6161 Recall= 0.3367  F-score= 0.4403
+Best depth = 5.00 lr= 0.01 sigmaSq= 10
+Best f-score achieved during 5-fold cross validation: 0.4403
+
+Precision= 0.6861 Recall= 0.3806  F-score= 0.4896
