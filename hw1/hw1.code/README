@@ -1,0 +1,6 @@
+Open a terminal and migrate to the required directory
+
+chmod +x run.sh
+./run.sh
+
+The testing has been done on lab1-1.eng.utah.edu machine
